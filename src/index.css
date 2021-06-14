@@ -105,4 +105,26 @@ header {
 	margin-left: 30px;
 }
 
-/*  */
+/* call-to-action-main */
+.call-to-action-main{
+  color: white;
+  width: 100%;
+  height: 67vh;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-main h1{
+  font-size: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+.call-to-action-main p{
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
