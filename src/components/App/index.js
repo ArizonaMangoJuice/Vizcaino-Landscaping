@@ -10,8 +10,8 @@ export default function App(props) {
                     <h1>LANDSCAPING SERVICES</h1>
                     <p>We create a cheerful & pleasant ambience</p>
                     <div className='call-to-action-main-buttons'>
-                        <button>MORE INFO</button>
-                        <button>CALL US</button>
+                        <a className='call-to-action-main-button' href='tel:+5555555555'>MORE INFO</a>
+                        <a className='call-to-action-main-button' href='tel:+5555555555'>CALL US</a>
                     </div>
                 </article>
 			</div>
