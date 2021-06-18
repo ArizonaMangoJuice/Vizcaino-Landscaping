@@ -24,6 +24,12 @@ const data = {
             duration: '1-7 days',
             mainImage: 'https://www.houselogic.com/wp-content/uploads/2009/11/deck-wood-diy-ufp_5a711a793e5a6ad3cde380304663fc06.jpg?w=570',
         },
+        {
+            title: 'Landscape Excavating',
+            desc: 'Call us for a quote!',
+            duration: '1-3 days',
+            mainImage: 'https://lh3.googleusercontent.com/proxy/jwyw0ldiE--pOc_46i2kMucetAYHYEwgfJv4NA0qCLQgM3QcKsuZs3c_6z1npzp7yfGN1LSu03F-h3fmJaZnL5b7jyNpLJD7JbAekE3BSGQiJRx9L6M9fo08dTfRRT11Lt_KrA',
+        },
     ],
 };
 

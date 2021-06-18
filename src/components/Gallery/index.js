@@ -6,10 +6,11 @@ export default function Gallery (props){
     const galleryCards = data.galleryCards.map(({title, mainImage, desc, duration}) => (
         <Card title={title} desc={desc} 
               mainImage={mainImage} duration={duration} />
-    ))
+    ));
+
     return (
         <section className='gallery'>
             {galleryCards}
         </section>
-    )
+    );
 }
