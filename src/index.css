@@ -302,8 +302,73 @@ header {
 	outline: none;
 }
 
+/* Contact Form */
+.contact-container{
+	max-width: 900px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-title{
+	margin-top: 25px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	color: var(--dark-blue);
+}
+
+.contact-message{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-email{
+	margin-top: 25px;
+}
+
+.contact-phone{
+	margin-bottom: 25px;
+}
+
+.contact-comments {
+	border: none;
+	border-left: 1px solid var(--blue-shadow);
+	border-right: 1px solid var(--blue-shadow);
+	margin-bottom: 25px;
+	font-size: 18px;
+	padding: 8px 10px;
+	resize: none;
+}
+
+.contact-button{
+	padding: 10px;
+	border: 1px solid var(--dark-blue);
+	background-color: var(--dark-blue);
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-size: 18px;
+}
+
 /* Footer */
 footer{
 	text-align: center;
 	padding: 15px;
+}
+
+/* global input */
+
+input{
+	border: none;
+	border-bottom: 1px solid var(--blue-shadow);
+	font-size: 18px;
+	padding: 5px;
+	margin: 5px 0;
 }
