@@ -1,5 +1,6 @@
 import Header from "../Header";
 import Gallery from "../Gallery";
+import Footer from "../Footer";
 
 export default function App(props) {
 	return (
@@ -17,6 +18,7 @@ export default function App(props) {
                 </article>
 
                 <Gallery />
+                <Footer />
 			</div>
 		</main>
 	);

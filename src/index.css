@@ -296,3 +296,9 @@ header {
 	color: var(--dark-blue);
 	outline: none;
 }
+
+/* Footer */
+footer{
+	text-align: center;
+	padding: 15px;
+}
