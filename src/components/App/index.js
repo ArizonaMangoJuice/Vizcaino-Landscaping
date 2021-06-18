@@ -1,6 +1,7 @@
 import Header from "../Header";
 import Gallery from "../Gallery";
 import Footer from "../Footer";
+import Contact from '../Contact';
 
 export default function App(props) {
 	return (
@@ -16,8 +17,8 @@ export default function App(props) {
                         <a className='call-to-action-main-button' href='tel:+5555555555'>CALL US</a>
                     </div>
                 </article>
-
                 <Gallery />
+                <Contact />
                 <Footer />
 			</div>
 		</main>
