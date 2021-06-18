@@ -1,4 +1,5 @@
 import Header from "../Header";
+import Gallery from "../Gallery";
 
 export default function App(props) {
 	return (
@@ -14,6 +15,8 @@ export default function App(props) {
                         <a className='call-to-action-main-button' href='tel:+5555555555'>CALL US</a>
                     </div>
                 </article>
+
+                <Gallery />
 			</div>
 		</main>
 	);
