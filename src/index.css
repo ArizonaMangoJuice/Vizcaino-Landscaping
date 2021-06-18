@@ -226,6 +226,13 @@ header {
   transition: .3s;
 }
 
+/* gallery */
+.gallery{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 /* gallery card  */
 .gallery-card{
 	border-radius: 5px;
@@ -233,6 +240,14 @@ header {
 	width: 280px;
 	box-shadow: -1px 0px 8px var(--blue-shadow);
 	position: relative;
+	transition: .3s;
+	margin: 20px;
+}
+
+.gallery-card:hover{
+	transition: .3s;
+	transform: scale(1.02);
+	box-shadow: 1px 0px 8px var(--blue-shadow);
 }
 
 .gallery-card-image{
