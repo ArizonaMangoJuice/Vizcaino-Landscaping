@@ -78,6 +78,7 @@ code {
 
 main {
 	/* max-width: 1400px; */
+	height: fit-content;
 }
 
 .main-container {
@@ -114,10 +115,13 @@ header {
 	margin: auto;
 	max-width: 1400px;
 	padding: 5px;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.4);
 	backdrop-filter: blur(5px);
-	position: sticky;
+	position: fixed;
 	top: 25px;
+	left: 0;
+	right: 0;
+	z-index: 99;
 }
 
 .header-nav {
@@ -308,6 +312,7 @@ header {
 	margin: auto;
 	display: flex;
 	flex-direction: column;
+	padding: 15px;
 }
 
 .contact-title{
@@ -345,6 +350,7 @@ header {
 	font-size: 18px;
 	padding: 8px 10px;
 	resize: none;
+	outline-color: var(--blue-shadow);
 }
 
 .contact-button{
@@ -355,6 +361,7 @@ header {
 	font-weight: bold;
 	letter-spacing: 1.5px;
 	font-size: 18px;
+	outline: none;
 }
 
 /* Footer */
@@ -371,4 +378,6 @@ input{
 	font-size: 18px;
 	padding: 5px;
 	margin: 5px 0;
+	outline-color: var(--blue-shadow	);
 }
+
