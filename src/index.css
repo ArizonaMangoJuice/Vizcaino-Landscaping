@@ -422,5 +422,11 @@ input{
 }
 
 .modal-close-modal{
-	
+
+}
+
+.stop-scroll{
+	overflow:hidden;
+	height: 100vh;
+
 }

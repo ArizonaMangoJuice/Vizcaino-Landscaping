@@ -9,7 +9,7 @@ export default function App(props) {
     const [modal, setModal] = useState(false);
 
 	return (
-		<main>
+		<main className={modal ? 'stop-scroll' : ''}>
             {modal ? <Modal closeModal={() => setModal(false)} /> : null}
 			<div className="main-container">
 				{modal ? null: <Header /> }
