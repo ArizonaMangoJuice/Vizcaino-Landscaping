@@ -121,7 +121,7 @@ header {
 	top: 25px;
 	left: 0;
 	right: 0;
-	z-index: 99;
+	z-index: 98;
 }
 
 .header-nav {
@@ -246,12 +246,14 @@ header {
 	position: relative;
 	transition: .3s;
 	margin: 20px;
-}
+	overflow: hidden;
+	}
 
 .gallery-card:hover{
 	transition: .3s;
 	transform: scale(1.02);
 	box-shadow: 1px 0px 8px var(--blue-shadow);
+	overflow: hidden;
 }
 
 .gallery-card-image{
@@ -260,6 +262,16 @@ header {
 	height: 200px;
 	width: 100%;
 	object-fit: cover;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.gallery-card-image:hover{
+	transition: .3s;
+	width: 100%;
+	height: 200px;
+	transform: scale(1.1);
+	filter: brightness(85%) contrast(115%);
 }
 
 .gallery-text{
@@ -381,3 +393,34 @@ input{
 	outline-color: var(--blue-shadow	);
 }
 
+/* modal */
+
+.gallery-modal{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .4);
+	z-index: 99;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-picture-container{
+	width: 80%;
+	height: 80vh;
+	/* background-color: red; */
+	position: relative;
+}
+
+.modal-current-image{
+	width: 100%;
+	height: 100%;
+}
+
+.modal-close-modal{
+	
+}
