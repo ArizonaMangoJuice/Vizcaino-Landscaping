@@ -181,6 +181,7 @@ header {
   letter-spacing: 1.5px;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .call-to-action-main p{
@@ -482,4 +483,72 @@ input{
 	transform: scale(1.2);
 	border: 1px solid var(--dark-blue);
 	border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px){
+	header{
+		width: 100%;
+		top: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 15px;
+	}
+
+	.header-nav{
+		margin: auto;
+	}
+
+	.header-link{
+		padding: 5px;
+	}
+	
+	.logo{
+		height: 50px;
+		width: 105px;
+		margin: 0;
+	}
+
+	.call-to-action-main{
+		padding: 10px;
+	}
+
+	.call-to-action-main h1{
+		font-size: 32px;
+		margin: 0 auto;
+	}
+
+	.call-to-action-main p{
+		margin-top: 15px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+}
+
+@media only screen and (max-width: 281px){
+	.call-to-action-main{
+		padding: 10px;
+	}
+
+	.call-to-action-main h1{
+		font-size: 22px;
+		margin: 0 auto;
+	}
+
+	.call-to-action-main p{
+		margin-top: 15px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	.call-to-action-main-buttons{
+		display: flex;
+    	flex-direction: column;
+	}
+
+	.call-to-action-main-button{
+		margin-bottom: 10px;
+		text-align: center;
+	}
 }
