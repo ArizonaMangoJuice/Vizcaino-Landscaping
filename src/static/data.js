@@ -34,63 +34,63 @@ const data = {
     ],
     works: [
         {
-            image: 'concrete-mixer.png',
+            image: 'concrete-mixer.svg',
             title: 'Concrete',
         },
         {
-            image: 'brickwall.png',
+            image: 'brickwall.svg',
             title: 'Retaining Walls',
         },
         {
-            image: 'fountain.png',
+            image: 'fountain.svg',
             title: 'Fountain & Waterfalls',
         },
         {
-            image: 'road-roller.png',
+            image: 'road-roller.svg',
             title: 'Asphalt',
         },  
         {
-            image: 'excavator.png',
+            image: 'excavator.svg',
             title: 'Excavation'
         },
         {
-            image: 'flowers.png',
+            image: 'flowers.svg',
             title: 'flowers',
         },
         {
-            image: 'grass.png',
+            image: 'grass.svg',
             title: 'Sod',
         },
         {
-            image: 'digging.png',
+            image: 'digging.svg',
             title: 'Mulch',
         },
         {
-            image: 'fence.png',
+            image: 'fence.svg',
             title: 'Fences',
         },  
         {
-            image: 'terrace.png',
+            image: 'terrace.svg',
             title: 'Patios',
         },
         {
-            image: 'irrigation-system.png',
+            image: 'irrigation-system.svg',
             title: 'Irrigation',
         },
         {
-            image: 'shovel.png',
+            image: 'shovel.svg',
             title: 'Snow Removal',
         },
         {
-            image: 'tools.png',
+            image: 'tools.svg',
             title: 'Maintenance',
         },
         {
-            image: 'seed.png',
+            image: 'seed.svg',
             title: 'Plant or Remove Trees',
         },  
         {
-            image: 'home.png',
+            image: 'home.svg',
             title: 'Decks',
         },
     ]
