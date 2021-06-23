@@ -4,7 +4,7 @@ const Modal = ({closeModal}) => {
     return (
         <section className='gallery-modal'>
             <article className='modal-picture-container'>
-                <button className='modal-before'>&lt;</button>
+                <button onClick className='modal-before'>&lt;</button>
                 <img src={image} className='modal-current-image' />
                 <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
                 <button className='modal-before'>&gt;</button>

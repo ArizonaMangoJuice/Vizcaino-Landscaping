@@ -8,9 +8,9 @@ export default function Gallery ({modal, setModal, closeModal}){
         console.log('hey this ran when its clicked')
     }, [modal]);
 
-    const galleryCards = data.galleryCards.map(({title, mainImage, desc, duration}) => (
+    const galleryCards = data.galleryCards.map(({title, mainImage, desc, duration,images}) => (
         <Card key={title} setModal={() => setModal()} title={title} desc={desc} 
-               mainImage={mainImage} duration={duration} />
+              images={images} mainImage={mainImage} duration={duration} />
     ));
 
     return (

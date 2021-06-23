@@ -7,7 +7,6 @@ import Modal from "../Modal";
 
 export default function App(props) {
     const [modal, setModal] = useState(false);
-
 	return (
 		<main className={modal ? 'stop-scroll' : ''}>
             {modal ? <Modal closeModal={() => setModal(false)} /> : null}
