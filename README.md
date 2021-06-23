@@ -1,7 +1,7 @@
 # Vizcaino Landscape 
 
 ## Many thanks to the icon creators below 
-- these are the icon authors 
+## these are the icon authors 
 - concrete By monkik
 - retaining walls By Smashicons
 - fountain by By Freepik
