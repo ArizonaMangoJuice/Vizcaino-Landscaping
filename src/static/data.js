@@ -32,6 +32,68 @@ const data = {
             images: ['pic1.jpg', 'pic2.jpg', 'pic3.jpg',]
         },
     ],
+    works: [
+        {
+            image: 'concrete-mixer.png',
+            title: 'Concrete',
+        },
+        {
+            image: 'brickwall.png',
+            title: 'Retaining Walls',
+        },
+        {
+            image: 'fountain.png',
+            title: 'Fountain & Waterfalls',
+        },
+        {
+            image: 'road-roller.png',
+            title: 'Asphalt',
+        },  
+        {
+            image: 'excavator.png',
+            title: 'Excavation'
+        },
+        {
+            image: 'flowers.png',
+            title: 'flowers',
+        },
+        {
+            image: 'grass.png',
+            title: 'Sod',
+        },
+        {
+            image: 'digging.png',
+            title: 'Mulch',
+        },
+        {
+            image: 'fence.png',
+            title: 'Fences',
+        },  
+        {
+            image: 'terrace.png',
+            title: 'Patios',
+        },
+        {
+            image: 'irrigation-system.png',
+            title: 'Irrigation',
+        },
+        {
+            image: 'shovel.png',
+            title: 'Snow Removal',
+        },
+        {
+            image: 'tools.png',
+            title: 'Maintenance',
+        },
+        {
+            image: 'seed.png',
+            title: 'Plant or Remove Trees',
+        },  
+        {
+            image: 'home.png',
+            title: 'Decks',
+        },
+    ]
 };
 
 export default data;
