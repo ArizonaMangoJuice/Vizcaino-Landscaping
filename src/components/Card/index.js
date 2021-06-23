@@ -4,10 +4,11 @@ export default function Card (
         setModal
     }
 ){
+    const image = require('../../media/'+mainImage);
     return (
 
         <article className='gallery-card'>
-            <img alt={mainImage + Math.random} onClick={() => setModal(true)} src={mainImage} className='gallery-card-image' />
+            <img alt={mainImage + Math.random} onClick={() => setModal(true)} src={image.default} className='gallery-card-image' />
             <section className='gallery-text'>
                 <h1>{title}</h1>
                 <p>{desc}</p>

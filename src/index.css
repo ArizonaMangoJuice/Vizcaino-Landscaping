@@ -240,6 +240,7 @@ header {
 
 /* gallery card  */
 .gallery-card{
+	background-color: white;
 	border-radius: 5px;
 	height: 480px;
 	width: 280px;
