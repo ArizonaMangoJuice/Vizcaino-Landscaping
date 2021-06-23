@@ -7,7 +7,7 @@ export default function Card (
     return (
 
         <article className='gallery-card'>
-            <img onClick={() => setModal(true)} src={mainImage} className='gallery-card-image' />
+            <img alt={mainImage + Math.random} onClick={() => setModal(true)} src={mainImage} className='gallery-card-image' />
             <section className='gallery-text'>
                 <h1>{title}</h1>
                 <p>{desc}</p>

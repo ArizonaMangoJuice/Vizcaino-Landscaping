@@ -5,7 +5,7 @@ const Modal = ({closeModal}) => {
         <section className='gallery-modal'>
             <article className='modal-picture-container'>
                 <button onClick className='modal-before'>&lt;</button>
-                <img src={image} className='modal-current-image' />
+                <img alt='house landscaping' src={image} className='modal-current-image' />
                 <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
                 <button className='modal-before'>&gt;</button>
             </article>

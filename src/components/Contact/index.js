@@ -9,7 +9,7 @@ const Contact = (props) => {
             <input className='contact-email' placeholder='Email' type='email' />
             <input placeholder='Name' type='text' />
             <input className='contact-phone' placeholder='Phone Number' type='text' />
-            <textarea rows='5' className='contact-comments' value='' placeholder='Comments or Questions?'></textarea>
+            <textarea rows='5' className='contact-comments' placeholder='Comments or Questions?'></textarea>
             <button className='contact-button'>Send!</button>
         </form>
     </section>

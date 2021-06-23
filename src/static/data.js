@@ -28,7 +28,7 @@ const data = {
             title: 'Landscape Excavating',
             desc: 'Call us for a quote!',
             duration: '1-3 days',
-            mainImage: 'https://lh3.googleusercontent.com/proxy/jwyw0ldiE--pOc_46i2kMucetAYHYEwgfJv4NA0qCLQgM3QcKsuZs3c_6z1npzp7yfGN1LSu03F-h3fmJaZnL5b7jyNpLJD7JbAekE3BSGQiJRx9L6M9fo08dTfRRT11Lt_KrA',
+            mainImage: 'https://images.pexels.com/photos/5125783/pexels-photo-5125783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
             images: ['pic1.jpg', 'pic2.jpg', 'pic3.jpg',]
         },
     ],

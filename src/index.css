@@ -429,3 +429,57 @@ input{
 	overflow:hidden;
 	height: 100vh;
 }
+
+/* works */
+
+.works{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.works-title{
+	margin-top: 25px;
+	margin-bottom: 25px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--dark-blue);
+	width: 100%;
+}
+
+.work-image{
+	height: 70px;
+	width: 70px;
+	margin-bottom: 15px;
+}
+
+.work-item{
+	color: var(--dark-blue);
+	font-weight: bold;
+	margin: 15px;
+	width: 120px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-items: center;
+	transition: .3s;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 10px 0;
+}
+
+.work-item:hover{
+	transition: .3s;
+	transform: scale(1.2);
+	border: 1px solid var(--dark-blue);
+	border-radius: 5px;
+}
+
+.work-item:focus{
+	transition: .3s;
+	transform: scale(1.2);
+	border: 1px solid var(--dark-blue);
+	border-radius: 5px;
+}

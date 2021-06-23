@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import Card from '../Card';
 import data from '../../static/data';
 
-export default function Gallery ({modal, setModal, closeModal}){
+export default function Gallery ({modal, setModal}){
     
     useEffect(() => {
-        console.log('hey this ran when its clicked')
+        // console.log('hey this ran when its clicked')
     }, [modal]);
 
     const galleryCards = data.galleryCards.map(({title, mainImage, desc, duration,images}) => (

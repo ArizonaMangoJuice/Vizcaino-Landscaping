@@ -12,11 +12,7 @@ export default function App(props) {
 
     const {works} = data;
 
-
     const allWorks = works.map(({title, image}) => <Work key={title} img={image} title={title} />);
-
-    console.log('this is the works', allWorks);
-
 
 	return (
 		<main className={modal ? 'stop-scroll' : ''}>
@@ -33,6 +29,7 @@ export default function App(props) {
                 </article>
                 <Gallery  modal={modal} setModal={() => setModal(true)}/>
                 <section className='works'>
+                    <h1 className='works-title'>Work We Do</h1>
                     {allWorks}
                 </section>
                 <Contact />
