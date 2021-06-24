@@ -14,7 +14,7 @@ export default function Gallery ({modal, setModal}){
     ));
 
     return (
-        <section className='gallery'>
+        <section id='services' className='gallery'>
             {galleryCards}
         </section>
     );

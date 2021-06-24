@@ -1,8 +1,9 @@
 import React from 'react';
+import 'aos/dist/aos.css';
 
 const Contact = (props) => {
     return (
-    <section className='contact-container'>
+    <section data-aos='fade-right' id='contact' className='contact-container'>
         <h1 className='contact-title'>Contact Us</h1>
         <p className='contact-message'>Call or Message Us for a Free Quote!</p>
         <form className='contact-form'>
