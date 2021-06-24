@@ -2,7 +2,7 @@ import Header from "../Header";
 import Gallery from "../Gallery";
 import Footer from "../Footer";
 import Contact from '../Contact';
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import Modal from "../Modal";
 import Work from "../work";
 import data from '../../static/data';
