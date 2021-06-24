@@ -297,7 +297,7 @@ header {
 	text-align: center;
 }
 
-.gallery-text button {
+.gallery-text a {
 	background-color: var(--dark-blue);
 	color: white;
 	border: none;
@@ -305,15 +305,16 @@ header {
 	padding: 10px;
 	transition: .3s;
 	cursor: pointer;
+	text-decoration: none;
 }
 
-.gallery-text button:hover {
+.gallery-text a:hover {
 	transition: .3s;
 	background-color: white;
 	color: var(--dark-blue);
 }
 
-.gallery-text button:focus {
+.gallery-text a:focus {
 	transition: .3s;
 	background-color: white;
 	color: var(--dark-blue);

@@ -14,7 +14,7 @@ export default function Card (
                 <p>{desc}</p>
                 <p>{duration}</p>
                 <p>Free Estimate</p>
-                <button>Call Now</button>
+                <a href='tel:1-555-555-5555'>Call Now</a>
             </section>
         </article>
     )
