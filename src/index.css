@@ -180,14 +180,14 @@ header {
 .call-to-action-main h1{
   font-size: 54px;
   letter-spacing: 1.5px;
-  padding: 0;
+  padding: 20px;
   margin: 0;
   text-align: center;
 }
 
 .call-to-action-main p{
   font-size: 22px;
-  padding: 0;
+  padding: 0px 20px 20px 20px;
   margin: 0;
   margin-bottom: 15px;
 }
@@ -521,12 +521,13 @@ input{
 	.call-to-action-main h1{
 		font-size: 32px;
 		margin: 0 auto;
+		/* margin-bottom: 25px; */
 	}
 
 	.call-to-action-main p{
 		margin-top: 15px;
 		text-align: center;
-		margin-bottom: 25px;
+		/* margin-bottom: 25px; */
 	}
 }
 
@@ -538,12 +539,14 @@ input{
 	.call-to-action-main h1{
 		font-size: 22px;
 		margin: 0 auto;
+		padding: 5px;
 	}
 
 	.call-to-action-main p{
 		margin-top: 15px;
 		text-align: center;
 		margin-bottom: 25px;
+		padding: 0 5px 5px 5px;
 	}
 
 	.call-to-action-main-buttons{

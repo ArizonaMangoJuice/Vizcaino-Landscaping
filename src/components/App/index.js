@@ -24,9 +24,9 @@ export default function App(props) {
 			<div className="main-container">
 				{modal ? null: <Header /> }
                 <article data-aos='fade-right' className='call-to-action-main'>
-                    <h1>LANDSCAPING SERVICES</h1>
-                    <p>We create a cheerful & pleasant ambience</p>
-                    <div className='call-to-action-main-buttons'>
+                    <h1 className='call-to-action-title' data-aos='fade-up'>LANDSCAPING SERVICES</h1>
+                    <p data-aos='fade-down'>We create a cheerful & pleasant ambience</p>
+                    <div data-aos='fade-right' className='call-to-action-main-buttons'>
                         <a className='call-to-action-main-button' href='tel:+5555555555'>MORE INFO</a>
                         <a className='call-to-action-main-button' href='tel:+5555555555'>CALL US</a>
                     </div>
