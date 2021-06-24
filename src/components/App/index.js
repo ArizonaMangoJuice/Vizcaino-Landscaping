@@ -27,7 +27,7 @@ export default function App(props) {
                     <h1 className='call-to-action-title' data-aos='fade-up'>LANDSCAPING SERVICES</h1>
                     <p data-aos='fade-down'>We create a cheerful & pleasant ambience</p>
                     <div data-aos='fade-right' className='call-to-action-main-buttons'>
-                        <a className='call-to-action-main-button' href='tel:+5555555555'>MORE INFO</a>
+                        <a className='call-to-action-main-button' href='#work'>MORE INFO</a>
                         <a className='call-to-action-main-button' href='tel:+5555555555'>CALL US</a>
                     </div>
                 </article>

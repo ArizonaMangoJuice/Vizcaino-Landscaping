@@ -477,14 +477,14 @@ input{
 
 .work-item:hover{
 	transition: .3s;
-	transform: scale(1.2);
+	transform: scale(1.2) !important;
 	border: 1px solid var(--dark-blue);
 	border-radius: 5px;
 }
 
 .work-item:focus{
 	transition: .3s;
-	transform: scale(1.2);
+	transform: scale(1.2) !important;
 	border: 1px solid var(--dark-blue);
 	border-radius: 5px;
 }
