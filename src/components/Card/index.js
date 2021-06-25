@@ -1,5 +1,5 @@
 import 'aos/dist/aos.css';
-
+// onClick={() => setModal(true)}
 export default function Card (
     {
         title, mainImage, desc, duration,
@@ -10,7 +10,7 @@ export default function Card (
     return (
 
         <article data-aos='fade-right' className='gallery-card'>
-            <img data-aos='fade-down' alt={mainImage + Math.random} onClick={() => setModal(true)} src={image.default} className='gallery-card-image' />
+            <img data-aos='fade-down' alt={mainImage + Math.random}  src={image.default} className='gallery-card-image' />
             <section className='gallery-text'>
                 <h1 data-aos='fade-up'>{title}</h1>
                 <p data-aos='fade-down'>{desc}</p>
