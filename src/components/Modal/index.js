@@ -1,11 +1,11 @@
 import React from 'react';
-let image = 'https://images.unsplash.com/photo-1523391139596-e7da8a18c733?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'
-const Modal = ({closeModal}) => {
+const Modal = ({ closeModal, images, resetImages }) => {
+    // const
     return (
         <section className='gallery-modal'>
             <article className='modal-picture-container'>
                 <button onClick className='modal-before'>&lt;</button>
-                <img alt='house landscaping' src={image} className='modal-current-image' />
+                <img alt='house landscaping' src={require('../../media/' + images[0]).default} className='modal-current-image' />
                 <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
                 <button className='modal-before'>&gt;</button>
             </article>

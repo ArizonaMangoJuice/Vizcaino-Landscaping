@@ -5,24 +5,29 @@ const data = {
             desc: 'Transform your lawn',
             duration: '1 hr',
             mainImage: 'mowinglawn.jpg',
+            images: [],
+
         },
         {
             title: 'Fences',
             desc: 'Get a quote with a consultation call!',
             duration: '1 hr',
             mainImage: 'fences.jpg',
+            images: [],
         },
         {
             title: 'Snow Cleaning',
             desc: 'Call for our competitive prices!',
             duration: '1-2 hr',
             mainImage: 'snow-removal.jpg',
+            images: [],
         },
         {
             title: 'House Decks',
             desc: 'Transform your backyard!',
             duration: '1-7 days',
             mainImage: 'housedeck.jpg',
+            images: [],
         },
         {
             title: 'Landscape Excavating',
@@ -48,7 +53,7 @@ const data = {
         {
             image: 'road-roller.svg',
             title: 'Asphalt',
-        },  
+        },
         {
             image: 'excavator.svg',
             title: 'Excavation'
@@ -68,7 +73,7 @@ const data = {
         {
             image: 'fence.svg',
             title: 'Fences',
-        },  
+        },
         {
             image: 'terrace.svg',
             title: 'Patios',
@@ -88,7 +93,7 @@ const data = {
         {
             image: 'seed.svg',
             title: 'Plant or Remove Trees',
-        },  
+        },
         {
             image: 'home.svg',
             title: 'Decks',
