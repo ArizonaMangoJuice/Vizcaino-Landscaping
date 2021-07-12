@@ -5,7 +5,10 @@ const data = {
             desc: 'Transform your lawn',
             duration: '1 hr',
             mainImage: 'mowinglawn.jpg',
-            images: [],
+            images: [
+                'landscaping1.png', 'landscaping2.png', 'landscaping3.png',
+                'landscaping4.png', 'landscaping5.png',
+            ],
 
         },
         {
@@ -13,14 +16,17 @@ const data = {
             desc: 'Get a quote with a consultation call!',
             duration: '1 hr',
             mainImage: 'fences.jpg',
-            images: [],
+            images: [
+                'fence3.png', 'fence4.png', 'fence5.png',
+                'fence6.png', 'fence7.png',
+            ],
         },
         {
             title: 'Snow Cleaning',
             desc: 'Call for our competitive prices!',
             duration: '1-2 hr',
             mainImage: 'snow-removal.jpg',
-            images: [],
+            images: ['snow1.png', 'snow2.png', 'snow3.png', 'snow4.png'],
         },
         {
             title: 'House Decks',
@@ -34,7 +40,10 @@ const data = {
             desc: 'Call us for a quote!',
             duration: '1-3 days',
             mainImage: 'excavation.jpg',
-            images: ['pic1.jpg', 'pic2.jpg', 'pic3.jpg',]
+            images: [
+                'pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'excavation1.png',
+                'excavation2.png', 'excavation3.png', 'excavation4.png',
+            ]
         },
     ],
     works: [

@@ -11,14 +11,24 @@ const Modal = ({ closeModal, images, resetImages }) => {
     }
     // const
     return (
-        <section className='gallery-modal'>
-            <article className='modal-picture-container'>
-                <button onClick={() => prevImage()} className='modal-before'>&lt;</button>
-                <img alt='house landscaping' src={require('../../media/' + images[currentImage]).default} className='modal-current-image' />
-                <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
-                <button onClick={() => nextImage()} className='modal-before'>&gt;</button>
-            </article>
-        </section>
+        images.length === 0 ?
+            <>
+                <section className='gallery-modal'>
+                    <article className='modal-picture-container'>
+                        <h1 className='modal-no-image-title'>We Are Currently adding Images</h1>
+                        <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
+                    </article>
+                </section>
+            </>
+            :
+            <section className='gallery-modal'>
+                <article className='modal-picture-container'>
+                    <button onClick={() => prevImage()} className='modal-before'>&lt;</button>
+                    <img alt='house landscaping' src={require('../../media/gallery/' + images[currentImage]).default} className='modal-current-image' />
+                    <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
+                    <button onClick={() => nextImage()} className='modal-after'>&gt;</button>
+                </article>
+            </section>
     )
 }
 
