@@ -1,4 +1,6 @@
 import 'aos/dist/aos.css';
+import LazyLoad from 'react-lazyload';
+
 // onClick={() => setModal(true)}
 export default function Card(
     {
@@ -16,7 +18,9 @@ export default function Card(
     return (
 
         <article data-aos='fade-right' className='gallery-card'>
-            <img onClick={() => setImagesAndModal()} data-aos='fade-down' alt={mainImage + Math.random} src={image.default} className='gallery-card-image' />
+            <LazyLoad once={true}>
+                <img onClick={() => setImagesAndModal()} data-aos='fade-down' alt={mainImage + Math.random} src={image.default} className='gallery-card-image' />
+            </LazyLoad>
             <section className='gallery-text'>
                 <h1 data-aos='fade-up'>{title}</h1>
                 <p data-aos='fade-down'>{desc}</p>

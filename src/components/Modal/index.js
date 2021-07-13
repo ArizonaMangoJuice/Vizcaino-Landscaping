@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import LazyLoad from 'react-lazyload';
+
 const Modal = ({ closeModal, images, resetImages }) => {
     const [currentImage, setCurrentImage] = useState(0);
 
@@ -24,7 +26,9 @@ const Modal = ({ closeModal, images, resetImages }) => {
             <section className='gallery-modal'>
                 <article className='modal-picture-container'>
                     <button onClick={() => prevImage()} className='modal-before'>&lt;</button>
-                    <img alt='house landscaping' src={require('../../media/gallery/' + images[currentImage]).default} className='modal-current-image' />
+                    <LazyLoad once={true}>
+                        <img alt='house landscaping' src={require('../../media/gallery/' + images[currentImage]).default} className='modal-current-image' />
+                    </LazyLoad>
                     <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
                     <button onClick={() => nextImage()} className='modal-after'>&gt;</button>
                 </article>
