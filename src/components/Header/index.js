@@ -1,11 +1,12 @@
 import 'aos/dist/aos.css';
 import LazyLoad from 'react-lazyload';
+import ImageSpinner from '../ImageSpinner';
 export default function Header(props){
     return(
         <header data-aos='fade-down'>
             <section className='header-logo'>
                 <a href='#home'>
-                    <LazyLoad once={true}>
+                    <LazyLoad once={true} placeholder={<ImageSpinner />}>
                         <img className='logo' src={process.env.PUBLIC_URL + '/img/logo-1.png'} alt='vizcaino landscape logo'/>
                     </LazyLoad>
                 </a>

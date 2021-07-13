@@ -541,6 +541,25 @@ input{
 	border-radius: 5px;
 }
 
+.image-spinner-container{
+	height: 400px;
+	width: 400px;
+}
+
+.image-spinner{
+	height: 100%;
+	width: 100%;
+	border: 15px solid transparent;
+	border-bottom: 15px solid red;
+	animation: spinner 1s infinite ease-in-out;
+	border-radius: 50%;
+}
+
+@keyframes spinner {
+	0% { transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
 @media only screen and (max-width: 500px){
 	header{
 		width: 100%;

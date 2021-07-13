@@ -1,5 +1,6 @@
 import 'aos/dist/aos.css';
 import LazyLoad from 'react-lazyload';
+import ImageSpinner from '../ImageSpinner';
 
 // onClick={() => setModal(true)}
 export default function Card(
@@ -18,7 +19,7 @@ export default function Card(
     return (
 
         <article data-aos='fade-right' className='gallery-card'>
-            <LazyLoad once={true}>
+            <LazyLoad once={true} placeholder={<ImageSpinner />}>
                 <img onClick={() => setImagesAndModal()} data-aos='fade-down' alt={mainImage + Math.random} src={image.default} className='gallery-card-image' />
             </LazyLoad>
             <section className='gallery-text'>

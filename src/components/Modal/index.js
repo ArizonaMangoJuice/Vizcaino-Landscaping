@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import LazyLoad from 'react-lazyload';
+import ImageSpinner from '../ImageSpinner';
 
 const Modal = ({ closeModal, images, resetImages }) => {
     const [currentImage, setCurrentImage] = useState(0);
@@ -26,7 +27,7 @@ const Modal = ({ closeModal, images, resetImages }) => {
             <section className='gallery-modal'>
                 <article className='modal-picture-container'>
                     <button onClick={() => prevImage()} className='modal-before'>&lt;</button>
-                    <LazyLoad once={true}>
+                    <LazyLoad once={true} placeholder={<ImageSpinner />}>
                         <img alt='house landscaping' src={require('../../media/gallery/' + images[currentImage]).default} className='modal-current-image' />
                     </LazyLoad>
                     <button onClick={() => closeModal()} className='modal-close-modal'>X</button>
