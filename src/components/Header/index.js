@@ -6,7 +6,7 @@ export default function Header(props){
         <header data-aos='fade-down'>
             <section className='header-logo'>
                 <a href='#home'>
-                    <LazyLoad once={true} placeholder={<ImageSpinner />}>
+                    <LazyLoad height={'100%'} once={true} placeholder={<ImageSpinner />}>
                         <img className='logo' src={process.env.PUBLIC_URL + '/img/logo-1.png'} alt='vizcaino landscape logo'/>
                     </LazyLoad>
                 </a>

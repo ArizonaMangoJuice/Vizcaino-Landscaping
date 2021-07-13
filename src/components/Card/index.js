@@ -19,7 +19,7 @@ export default function Card(
     return (
 
         <article data-aos='fade-right' className='gallery-card'>
-            <LazyLoad once={true} placeholder={<ImageSpinner />}>
+            <LazyLoad height={'100%'} once={true} placeholder={<ImageSpinner />}>
                 <img onClick={() => setImagesAndModal()} data-aos='fade-down' alt={mainImage + Math.random} src={image.default} className='gallery-card-image' />
             </LazyLoad>
             <section className='gallery-text'>

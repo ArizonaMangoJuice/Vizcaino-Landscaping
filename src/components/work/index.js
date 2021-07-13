@@ -8,8 +8,8 @@ const Work = ({img, title}) => {
     // console.log(image)
     return (
         <article data-aos='fade-up' className='work-item' tabIndex='0'>
-            <LazyLoad once={true} placeholder={<ImageSpinner />}>
-                <img alt={title} className='work-image' src={image.default} />
+            <LazyLoad height={'100%'} once={true} placeholder={<ImageSpinner />}>
+                <img  alt={title} className='work-image' src={image.default} />
             </LazyLoad>
             <p className='work-title'>{title}</p>
         </article>
