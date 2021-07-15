@@ -20,12 +20,12 @@ export default function Card(
 
         <article data-aos='fade-right' className='gallery-card'>
             <LazyLoad height={'100%'} once={true} placeholder={<ImageSpinner />}>
-                <img onClick={() => setImagesAndModal()} data-aos='fade-down' alt={mainImage + Math.random} src={image.default} className='gallery-card-image' />
+                <img tabIndex='0' onClick={() => setImagesAndModal()} data-aos='fade-down' alt={mainImage + Math.random} src={image.default} className='gallery-card-image' />
             </LazyLoad>
             <section className='gallery-text'>
                 <h1 data-aos='fade-up'>{title}</h1>
                 <p data-aos='fade-down'>{desc}</p>
-                <p data-aos='fade-down'>{duration}</p>
+                <p data-aos='fade-down' className='duration'>{duration}</p>
                 <p data-aos='fade-up'>Free Estimate</p>
                 <a data-aos='fade-right' href='tel:1-555-555-5555'>Call Now</a>
             </section>
