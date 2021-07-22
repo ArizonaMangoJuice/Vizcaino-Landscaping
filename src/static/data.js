@@ -6,8 +6,8 @@ const data = {
             duration: 'Click/Tap On Image To View Gallery!',
             mainImage: 'mowinglawn.jpg',
             images: [
-                'landscaping1.png', 'landscaping2.png', 'landscaping3.png',
-                'landscaping4.png', 'landscaping5.png',
+                'landscaping1.jpg', 'landscaping2.jpg', 'landscaping3.jpg',
+                'landscaping4.jpg', 'landscaping5.jpg',
             ],
 
         },
@@ -17,8 +17,8 @@ const data = {
             duration: 'Click/Tap On Image To View Gallery!',
             mainImage: 'fences.jpg',
             images: [
-                'fence3.png', 'fence4.png', 'fence5.png',
-                'fence6.png', 'fence7.png',
+                'fence3.jpg', 'fence4.jpg', 'fence5.jpg',
+                'fence6.jpg', 'fence7.jpg',
             ],
         },
         {
@@ -26,7 +26,7 @@ const data = {
             desc: 'Call for our competitive prices!',
             duration: 'Click/Tap On Image To View Gallery!',
             mainImage: 'snow-removal.jpg',
-            images: ['snow1.png', 'snow2.png', 'snow3.png', 'snow4.png'],
+            images: ['snow1.jpg', 'snow2.jpg', 'snow3.jpg', 'snow4.jpg'],
         },
         {
             title: 'House Decks',
@@ -41,8 +41,8 @@ const data = {
             duration: 'Click/Tap On Image To View Gallery!',
             mainImage: 'excavation.jpg',
             images: [
-                'pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'excavation1.png',
-                'excavation2.png', 'excavation3.png', 'excavation4.png',
+                'pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'excavation1.jpg',
+                'excavation2.jpg', 'excavation3.jpg', 'excavation4.jpg',
             ]
         },
     ],
